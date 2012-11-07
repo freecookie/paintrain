@@ -14,13 +14,13 @@ public class Layout {
 	public Layout() {
 		
 //		Frameset
-		JFrame trframe = new JFrame("Calculator");
+		JFrame trframe = new JFrame("CalculatorFTW");
 		JPanel panelwrapper =  new JPanel();
 		JPanel panelout = new JPanel();
 		JPanel panelin = new JPanel();
 //		Output
 		JTextField output = new JTextField("0");
-		JButton cancel = new JButton("C");
+		JButton cancel = new JButton("Delete");
 //		Input	numbers	
 		JButton eins = new JButton("1");
 		JButton zwei = new JButton("2");
